@@ -10,6 +10,12 @@ local servers = {
           enabled = true,
           profile = "black",
         },
+        pyflakes = {
+          enabled = false,
+        },
+        mccabe = {
+          enabled = false,
+        },
       },
     },
   },
